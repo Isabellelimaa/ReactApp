@@ -1,12 +1,23 @@
 import React from "react";
-import { AppBar, Button, Toolbar, Typography } from "@material-ui/core";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import "./styles.css";
 
 const Menu = (props) => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="h6">MyApp</Typography>
-      <Link to="/study">Criar Conta</Link>
+      <div className="itensDiv">
+        <Link to="/Cadastro" className="itens">
+          Criar Conta
+        </Link>
+        <Link to="/Login" className="itens">
+          Acessar
+        </Link>
+        <Link to="/Lista" className="itens">
+          Lista
+        </Link>
+      </div>
     </Toolbar>
   </AppBar>
 );

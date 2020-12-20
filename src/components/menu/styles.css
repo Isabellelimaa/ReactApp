@@ -1,0 +1,9 @@
+.itensDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.itens{
+    margin: 5px;
+    color: white;
+}

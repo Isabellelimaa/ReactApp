@@ -1,8 +1,9 @@
 import React from "react";
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
+import "./styles.css";
 
 function Home() {
-  return <div>Bem vindo</div>;
+  return <div className="welcomeDiv">Bem vindo</div>;
 }
 
 export default withRouter(Home);

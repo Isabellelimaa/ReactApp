@@ -1,0 +1,10 @@
+.welcomeDiv{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-family: revert;
+}

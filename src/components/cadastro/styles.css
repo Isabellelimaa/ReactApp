@@ -1,0 +1,12 @@
+.cadastroContainer{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastroItens{
+    margin-bottom: 5vh;
+}
